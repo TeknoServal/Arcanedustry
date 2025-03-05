@@ -13,8 +13,7 @@ import java.util.function.Supplier;
 
 import static com.teknoserval.arcanedustry.Arcanedustry.MODID;
 import static com.teknoserval.arcanedustry.Constants.EXAMPLE_TAB_ID;
-import static com.teknoserval.arcanedustry.creativetabs.ArcanedustryCreativeTabs.ARCANEDUSTRY_TAB_ITEM_LOCATIONS;
-import static com.teknoserval.arcanedustry.creativetabs.ArcanedustryCreativeTabs.EXAMPLE_TAB;
+import static com.teknoserval.arcanedustry.creativetabs.ArcanedustryCreativeTabs.TAB_ITEM_LOCATIONS;
 
 public class ArcanedustryItems {
 
@@ -32,14 +31,14 @@ public class ArcanedustryItems {
     public static DeferredItem<Item> registerItem(String name, Function<Item.Properties, ? extends Item> func, Item.Properties props, String creativeTab) {
         DeferredItem<Item> item = ITEMS.registerItem(name, func, props);
 
-        ARCANEDUSTRY_TAB_ITEM_LOCATIONS.put(creativeTab, item);
+        TAB_ITEM_LOCATIONS.put(creativeTab, item);
         return item;
     }
 
     public static DeferredItem<BlockItem> registerSimpleBlockItem(String name, Supplier<? extends Block> block, String creativeTab) {
         DeferredItem<BlockItem> item = ITEMS.registerSimpleBlockItem(name, block);
 
-        ARCANEDUSTRY_TAB_ITEM_LOCATIONS.put(creativeTab, item);
+        TAB_ITEM_LOCATIONS.put(creativeTab, item);
         return item;
     }
 
