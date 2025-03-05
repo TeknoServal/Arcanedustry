@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "arcanedustry:item/example_item"
+  },
+  "properties": {
+    "hand_animation_on_swap": false
+  }
+}
