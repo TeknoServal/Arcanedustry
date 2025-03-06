@@ -1,4 +1,4 @@
-package com.teknoserval.arcanedustry.datagen;
+package com.teknoserval.arcanedustry.datagen.models;
 
 import com.teknoserval.arcanedustry.blocks.ArcanedustryBlocks;
 import com.teknoserval.arcanedustry.items.ArcanedustryItems;

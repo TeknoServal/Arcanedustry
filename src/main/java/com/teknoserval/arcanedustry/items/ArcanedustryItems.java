@@ -25,9 +25,9 @@ public class ArcanedustryItems {
 
     public static final Multimap<String, DeferredItem<? extends Item>> ITEM_TYPE_MAP = ArrayListMultimap.create();
 
-    // Creates a new food item with the id "arcanedustry:example_id", nutrition 1 and saturation 2
-    public static final DeferredItem<Item> EXAMPLE_ITEM = registerSimpleItem("example_item", new Item.Properties().food(new FoodProperties.Builder()
-            .alwaysEdible().nutrition(1).saturationModifier(2f).build()), EXAMPLE_TAB_ID);
+    public static final DeferredItem<Item> EXAMPLE_ITEM = registerSimpleItem("example_item", new Item.Properties(), EXAMPLE_TAB_ID);
+    public static final DeferredItem<Item> MAGIC_GOO = registerSimpleItem("magic_goo", new Item.Properties().food(new FoodProperties.Builder()
+            .alwaysEdible().nutrition(1).saturationModifier(2f).build(), ArcanedustryConsumables.MAGIC_GOO), EXAMPLE_TAB_ID);
 
     public static DeferredItem<Item> registerSimpleItem(String name, Item.Properties props, String creativeTab) {
         return registerSimpleItem(name, Item::new, props, creativeTab);

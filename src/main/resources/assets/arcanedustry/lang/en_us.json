@@ -1,5 +1,6 @@
 {
   "itemGroup.arcanedustry.example_tab": "Example Mod Tab",
   "block.arcanedustry.example_block": "Example Block",
-  "item.arcanedustry.example_item": "Example Item"
+  "item.arcanedustry.example_item": "Example Item",
+  "item.arcanedustry.magic_goo": "Magic Goo"
 }
