@@ -2,7 +2,7 @@ package com.teknoserval.arcanedustry.blocks;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
-import com.teknoserval.arcanedustry.items.ArcanedustryItems;
+import com.teknoserval.arcanedustry.item.ArcanedustryItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;

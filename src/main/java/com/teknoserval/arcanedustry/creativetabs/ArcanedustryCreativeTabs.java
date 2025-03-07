@@ -2,7 +2,7 @@ package com.teknoserval.arcanedustry.creativetabs;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
-import com.teknoserval.arcanedustry.items.ArcanedustryItems;
+import com.teknoserval.arcanedustry.item.ArcanedustryItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

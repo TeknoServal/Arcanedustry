@@ -1,7 +1,7 @@
 package com.teknoserval.arcanedustry.datagen.loottables;
 
 import com.teknoserval.arcanedustry.blocks.ArcanedustryBlocks;
-import com.teknoserval.arcanedustry.items.ArcanedustryItems;
+import com.teknoserval.arcanedustry.item.ArcanedustryItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.loot.BlockLootSubProvider;
@@ -10,7 +10,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;

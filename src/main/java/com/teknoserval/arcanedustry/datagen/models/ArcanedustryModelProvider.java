@@ -1,7 +1,7 @@
 package com.teknoserval.arcanedustry.datagen.models;
 
 import com.teknoserval.arcanedustry.blocks.ArcanedustryBlocks;
-import com.teknoserval.arcanedustry.items.ArcanedustryItems;
+import com.teknoserval.arcanedustry.item.ArcanedustryItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
